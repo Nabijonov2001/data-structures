@@ -14,6 +14,13 @@ const list = {
   },
 };
 
+class Node {
+  cunstructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+
 function getFirst(list) {
   return list.head.value;
 }
